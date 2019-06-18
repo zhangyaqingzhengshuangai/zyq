@@ -1,0 +1,555 @@
+/* 一屏的高度 */
+html,body,.main{
+    height:100%;
+    width: 100%;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}  
+
+.swiper-button-next{
+    width:0.5rem;
+    height:0.4rem;
+    background:url("../images/arrow.png") center center no-repeat;
+    background-size:cover;
+    position:absolute;
+    bottom:0.4rem;
+    left:50%;
+    margin-left:-0.25rem;
+    top:auto;
+    animation: slideInUp 1s infinite;
+}
+
+@-webkit-keyframes slideInUp {
+    from {
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+      visibility: visible;
+    }
+  
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  @keyframes slideInUp {
+    from {
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+      visibility: visible;
+    }
+  
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+/* 第一页 */
+.page1>img{
+    position:absolute;
+}
+.page1{
+   background:url("../images/1.jpg");
+   position:relative;
+}
+.desk{
+    right:5%;
+    top:20%;
+    width: 90%;
+}
+
+.peoples{
+    top: 40%;
+    right: 19%;
+    width: 60%;
+}
+
+.text{
+    top: 80%;
+    position:absolute;
+    font-size:0.32rem;
+    left:45%;
+    line-height:0.64rem;
+    color:darkorange;
+
+}
+/* 第二页 */
+.page2>img{
+    position:absolute;
+}
+.page2{
+    background:url("../images/1.jpg") center center no-repeat;
+    background-size:cover;
+    position:relative;
+}
+.textContent{
+    position:absolute;
+    font-size:0.72rem;
+    top:3.5rem;
+    left: 3.25rem;
+    text-align: center;
+    line-height:1rem;
+    color:darkorange;
+}
+/* page3 */
+.page3{
+    position:relative;
+    background:url("../images/1.jpg");
+    background-size:100% 100%;
+}
+.page3>img{
+    position: absolute;
+}
+.jvshou{
+ width:90%;
+ top:10%;
+ left:5%;
+}
+.page4{
+    position:relative;
+    background:url("../images/1.jpg");
+    background-size:100% 100%;
+}
+.page4>img{
+    position: absolute;
+}
+.a{
+ width:90%;
+ top:25%;
+ left:5%;
+}
+.page5{
+  position:relative;
+  background:url("../images/1.jpg");
+  background-size:100% 100%;
+}
+.page5>img{
+  position: absolute;
+}
+
+.b{
+  width:90%;
+  top:15%;
+  left:5%;
+ }
+.page6{
+  position:relative;
+  background:url("../images/1.jpg");
+  background-size:100% 100%;
+}
+.page6>img{
+  position: absolute;
+}
+
+.c{
+  width:90%;
+  top:10%;
+  left:5%;
+ }
+.d{
+  width:90%;
+  top:55%;
+  left:5%;
+ }
+.page7>img{
+  position:absolute;
+}
+.page7{
+  background:url("../images/1.jpg") center center no-repeat;
+  background-size:cover;
+  position:relative;
+}
+.page8{
+  position:relative;
+  background:url("../images/1.jpg");
+  background-size:100% 100%;
+}
+.page8>img{
+  position: absolute;
+}
+
+.e{
+  width:90%;
+  top:10%;
+  left:5%;
+ }
+.page9{
+  position:relative;
+  background:url("../images/1.jpg");
+  background-size:100% 100%;
+}
+.page9>img{
+  position: absolute;
+}
+
+.f{
+  width:90%;
+  top:10%;
+  left:5%;
+ }
+.page10{
+  position:relative;
+  background:url("../images/1.jpg");
+  background-size:100% 100%;
+}
+.page10>img{
+  position: absolute;
+}
+
+.g{
+  width:90%;
+  top:10%;
+  left:5%;
+ }
+ .page11>img{
+  position:absolute;
+}
+.page11{
+  background:url("../images/1.jpg") center center no-repeat;
+  background-size:cover;
+  position:relative;
+}
+.page12{
+  position:relative;
+  background:url("../images/1.jpg");
+  background-size:100% 100%;
+}
+.page12>img{
+  position: absolute;
+}
+
+.h{
+  width:90%;
+  top:20%;
+  left:5%;
+ }
+.i{
+  width:90%;
+  top:60%;
+  left:5%;
+ }
+.page13{
+  position:relative;
+  background:url("../images/1.jpg");
+  background-size:100% 100%;
+}
+.page13>img{
+  position: absolute;
+}
+
+.j{
+  width:80%;
+  top:3%;
+  left:10%;
+ }
+.k{
+  width:80%;
+  top:50%;
+  left:10%;
+ }
+ .page14{
+  position:relative;
+  background:url("../images/1.jpg");
+  background-size:100% 100%;
+}
+.page14>img{
+  position: absolute;
+}
+
+.l{
+  width:90%;
+  top:5%;
+  left:5%;
+ }
+ .page15>img{
+  position:absolute;
+}
+.page15{
+  background:url("../images/1.jpg") center center no-repeat;
+  background-size:cover;
+  position:relative;
+}
+.page16{
+  position:relative;
+  background:url("../images/1.jpg");
+  background-size:100% 100%;
+}
+.page16>img{
+  position: absolute;
+}
+
+.m{
+  width:90%;
+  top:10%;
+  left:5%;
+
+ }
+.page17{
+  position:relative;
+  background:url("../images/1.jpg");
+  background-size:100% 100%;
+}
+.page17>img{
+  position: absolute;
+}
+
+.n{
+  width:90%;
+  top:10%;
+  left:5%;
+ }
+.page18{
+  position:relative;
+  background:url("../images/1.jpg");
+  background-size:100% 100%;
+}
+.page18>img{
+  position: absolute;
+}
+
+.o{
+  width:90%;
+  top:10%;
+  left:5%;
+ }
+.page19{
+  position:relative;
+  background:url("../images/1.jpg");
+  background-size:100% 100%;
+}
+.page19>img{
+  position: absolute;
+}
+
+.p{
+  width:90%;
+  top:10%;
+  left:5%;
+ }
+.page20{
+  position:relative;
+  background:url("../images/1.jpg");
+  background-size:100% 100%;
+}
+.page20>img{
+  position: absolute;
+}
+
+.q{
+  width:90%;
+  top:10%;
+  left:5%;
+ }
+ .page21>img{
+  position:absolute;
+}
+.page21{
+  background:url("../images/1.jpg") center center no-repeat;
+  background-size:cover;
+  position:relative;
+}
+.page22>img{
+  position:absolute;
+}
+.page22{
+  background:url("../images/1.jpg") center center no-repeat;
+  background-size:cover;
+  position:relative;
+}
+.r{
+  width:80%;
+  top:2%;
+  left:10%;
+ }
+.s{
+  width:80%;
+  top:30%;
+  left:10%;
+ }
+ .t{
+  width:80%;
+  top:64%;
+  left:10%;
+ }
+ .page23>img{
+  position:absolute;
+}
+.page23{
+  background:url("../images/1.jpg") center center no-repeat;
+  background-size:cover;
+  position:relative;
+}
+.u{
+  width:90%;
+  top:10%;
+  left:5%;
+ }
+ .page24>img{
+  position:absolute;
+}
+.page24{
+  background:url("../images/1.jpg") center center no-repeat;
+  background-size:cover;
+  position:relative;
+}
+.page25>img{
+  position:absolute;
+}
+.page25{
+  background:url("../images/1.jpg") center center no-repeat;
+  background-size:cover;
+  position:relative;
+}
+.v{
+  width:70%;
+  top:2%;
+  left:15%;
+ }
+.w{
+  width:80%;
+  top:60%;
+  left:10%;
+ }
+ .page26>img{
+  position:absolute;
+}
+.page26{
+  background:url("../images/1.jpg") center center no-repeat;
+  background-size:cover;
+  position:relative;
+}
+.x{
+  width:90%;
+  top:10%;
+  left:5%;
+ }
+ .page27>img{
+  position:absolute;
+}
+.page27{
+  background:url("../images/1.jpg") center center no-repeat;
+  background-size:cover;
+  position:relative;
+}
+.y{
+  width:90%;
+  top:10%;
+  left:5%;
+ }
+ .page28>img{
+  position:absolute;
+}
+.page28{
+  background:url("../images/1.jpg") center center no-repeat;
+  background-size:cover;
+  position:relative;
+}
+.z{
+  width:90%;
+  top:10%;
+  left:5%;
+ }
+ .page29>img{
+  position:absolute;
+}
+.page29{
+  background:url("../images/1.jpg") center center no-repeat;
+  background-size:cover;
+  position:relative;
+}
+ .page30>img{
+  position:absolute;
+}
+.page30{
+  background:url("../images/1.jpg") center center no-repeat;
+  background-size:cover;
+  position:relative;
+}
+.ab{
+  width:80%;
+  top:8%;
+  left:10%;
+ }
+.cd{
+  width:80%;
+  top:60%;
+  left:10%;
+ }
+
+ .page31>img{
+  position:absolute;
+}
+.page31{
+  background:url("../images/1.jpg") center center no-repeat;
+  background-size:cover;
+  position:relative;
+}
+.ef{
+  width:80%;
+  top:2%;
+  left:10%;
+ }
+
+.music{
+   width:1rem;
+   height:1rem;
+   background:url("../images/music.jpg") center center no-repeat;
+   background-size:cover;
+   position: absolute;
+   left:0.2rem;
+   top:0.2rem;
+   z-index:999;
+   border-radius:50%;
+   animation: rotateIn 2s linear infinite;
+
+}
+@keyframes rotateIn{
+  100%{
+    transform:rotate(360deg);
+  }
+}
+/*@-webkit-keyframes rotateIn {
+    from {
+      -webkit-transform-origin: center;
+      transform-origin: center;
+      -webkit-transform: rotate3d(0, 0, 1, -200deg);
+      transform: rotate3d(0, 0, 1, -200deg);
+      opacity: 0;
+    }
+  
+    to {
+      -webkit-transform-origin: center;
+      transform-origin: center;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes rotateIn {
+    from {
+      -webkit-transform-origin: center;
+      transform-origin: center;
+      -webkit-transform: rotate3d(0, 0, 1, -200deg);
+      transform: rotate3d(0, 0, 1, -200deg);
+      opacity: 0;
+    }
+  
+    to {
+      -webkit-transform-origin: center;
+      transform-origin: center;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+      opacity: 1;
+    }
+  }
+  
+  .rotateIn {
+    -webkit-animation-name: rotateIn;
+    animation-name: rotateIn;
+  }
+  */
